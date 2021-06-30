@@ -1,0 +1,15 @@
+/* First font option */
+
+/*
+body{
+  font-family:'Playfair Display', serif;
+  line-height: 2;
+}
+*/
+
+/*Second font option */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+}
