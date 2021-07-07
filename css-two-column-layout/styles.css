@@ -1,0 +1,58 @@
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 0.8rem;
+}
+
+p {
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+}
+
+.imagen {
+  width: 80%;
+}
+
+.introduction {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+.container {
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+}
+
+.column-one-half {
+  flex-basis: calc(100% / 2);
+}
+
+.div-imagen {
+  padding-left: 45px;
+}
+
+.button {
+  padding-top: 50px;
+}
+
+.button-style {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: red;
+  border-color: red;
+  font-size: 0.7rem;
+  border: 0.1rem solid;
+}
