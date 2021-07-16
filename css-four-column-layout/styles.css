@@ -1,0 +1,51 @@
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.main-div {
+  background-color: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+}
+
+.column-one-forth {
+  flex-basis: calc(100% / 4);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.map {
+  width: 100%;
+}
+
+.icon {
+  width: 100%;
+}
+
+.icon-container {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container > p {
+  font-size: 0.6rem;
+}
