@@ -1,0 +1,52 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.8rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+.column-one-fifth {
+  flex-basis: calc(100% / 3);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.imagen {
+  width: 100%;
+}
+
+.sub-container {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.item {
+  font-weight: bold;
+}
+
+.size {
+  color: rgb(199, 197, 197);
+  padding-left: 2px;
+}
+
+.price {
+  font-weight: bold;
+  background-color: rgb(255, 239, 213);
+}
+
+.retail-price {
+  padding-left: 2px;
+  color: rgb(199, 197, 197);
+  text-decoration: line-through;
+}
