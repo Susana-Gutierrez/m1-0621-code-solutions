@@ -1,0 +1,29 @@
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.on {
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  background: yellow;
+}
+
+.light {
+  background: #fcf7ef;
+}
+
+.off {
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  background: darkgray;
+}
+
+.dark {
+  background: rgb(15, 15, 15);
+}
