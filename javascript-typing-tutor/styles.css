@@ -1,0 +1,20 @@
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.good-character {
+  color: limegreen;
+}
+
+.bad-character {
+  color: red;
+}
