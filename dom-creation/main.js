@@ -61,7 +61,7 @@ function renderPokemon(pokemon) {
 
   var elementDiv = document.createElement('div');
   elementDiv.setAttribute('class', 'column-third');
-  document.querySelector('.row').appendChild(elementDiv);
+  /* document.querySelector('.row').appendChild(elementDiv); */
 
   var elementDiv2 = document.createElement('div');
   elementDiv2.setAttribute('class', 'pokemon-card');
@@ -88,10 +88,14 @@ function renderPokemon(pokemon) {
   elementP.textContent = pokedex[pokemon]['description'];
   elementDiv3.appendChild(elementP);
 
+return elementDiv;
 
 }
 
 
+var $div = document.querySelector('.row');
+
+
 for (var i = 0; i < pokedex.length; i++){
-  renderPokemon(i);
+  $div.appendChild(renderPokemon(i));
 }
